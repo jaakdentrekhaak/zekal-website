@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Contact() {
@@ -17,9 +18,44 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-primary mb-6">
             {t.contact.title}
           </h2>
-          <p className="text-xl text-center text-secondary mb-12">
+          <p className="text-xl text-center text-secondary mb-6">
             {t.contact.subtitle}
           </p>
+
+          <div className="text-center mb-12">
+            <Link
+              href="/availability"
+              className="inline-flex items-center text-accent hover:text-blue-700 transition-colors font-medium"
+            >
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+              {t.contact.availabilityLink}
+              <svg
+                className="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </Link>
+          </div>
 
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
             <form

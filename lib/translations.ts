@@ -32,6 +32,7 @@ export interface Translations {
   contact: {
     title: string;
     subtitle: string;
+    availabilityLink: string;
     autoresponse: string;
     form: {
       name: string;
@@ -59,6 +60,11 @@ export interface Translations {
     company: string;
     vat: string;
     rights: string;
+  };
+  availability: {
+    title: string;
+    subtitle: string;
+    backToHome: string;
   };
 }
 
@@ -110,6 +116,8 @@ export const translations: Record<Language, Translations> = {
       title: "Neem Contact Op",
       subtitle:
         "Geïnteresseerd in onze oplossingen? Heeft u vragen of wilt u meer informatie? Neem gerust contact met ons op.",
+      availabilityLink:
+        "Of bekijk mijn beschikbaarheid om een afspraak te plannen",
       autoresponse:
         "Bedankt voor uw bericht! We nemen zo spoedig mogelijk contact met u op.",
       form: {
@@ -140,6 +148,12 @@ export const translations: Record<Language, Translations> = {
       company: "Zekal",
       vat: "BTW: BE 1002.570.026",
       rights: "© 2025 Zekal. Alle rechten voorbehouden.",
+    },
+    availability: {
+      title: "Beschikbaarheid",
+      subtitle:
+        "Bekijk mijn agenda om een geschikt moment te vinden voor een afspraak.",
+      backToHome: "Terug naar home",
     },
   },
   fr: {
@@ -189,6 +203,8 @@ export const translations: Record<Language, Translations> = {
       title: "Contactez-Nous",
       subtitle:
         "Intéressé par nos solutions ? Vous avez des questions ou souhaitez plus d'informations ? N'hésitez pas à nous contacter.",
+      availabilityLink:
+        "Ou consultez mes disponibilités pour planifier un rendez-vous",
       autoresponse:
         "Merci pour votre message ! Nous vous contacterons dans les plus brefs délais.",
       form: {
@@ -219,6 +235,12 @@ export const translations: Record<Language, Translations> = {
       company: "Zekal",
       vat: "TVA: BE 1002.570.026",
       rights: "© 2025 Zekal. Tous droits réservés.",
+    },
+    availability: {
+      title: "Disponibilité",
+      subtitle:
+        "Consultez mon calendrier pour trouver un moment approprié pour un rendez-vous.",
+      backToHome: "Retour à l'accueil",
     },
   },
   en: {
@@ -268,6 +290,7 @@ export const translations: Record<Language, Translations> = {
       title: "Get In Touch",
       subtitle:
         "Interested in our solutions? Have questions or need more information? Feel free to reach out to us.",
+      availabilityLink: "Or check my availability to schedule a meeting",
       autoresponse:
         "Thank you for your message! We will get back to you as soon as possible.",
       form: {
@@ -298,6 +321,11 @@ export const translations: Record<Language, Translations> = {
       company: "Zekal",
       vat: "VAT: BE 1002.570.026",
       rights: "© 2025 Zekal. All rights reserved.",
+    },
+    availability: {
+      title: "Availability",
+      subtitle: "Check my calendar to find a suitable time for a meeting.",
+      backToHome: "Back to home",
     },
   },
 };

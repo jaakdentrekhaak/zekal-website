@@ -44,16 +44,6 @@ export default function Availability() {
             {t.availability.backToHome}
           </Link>
 
-          {/* Title */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4">
-              {t.availability.title}
-            </h1>
-            <p className="text-xl text-secondary max-w-2xl mx-auto">
-              {t.availability.subtitle}
-            </p>
-          </div>
-
           {/* Calendar Embed */}
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <iframe

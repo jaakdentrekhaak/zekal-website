@@ -116,8 +116,7 @@ export const translations: Record<Language, Translations> = {
       title: "Neem Contact Op",
       subtitle:
         "Geïnteresseerd in onze oplossingen? Heeft u vragen of wilt u meer informatie? Neem gerust contact met ons op.",
-      availabilityLink:
-        "Of bekijk mijn beschikbaarheid om een afspraak te plannen",
+      availabilityLink: "Plan een afspraak",
       autoresponse:
         "Bedankt voor uw bericht! We nemen zo spoedig mogelijk contact met u op.",
       form: {
@@ -203,8 +202,7 @@ export const translations: Record<Language, Translations> = {
       title: "Contactez-Nous",
       subtitle:
         "Intéressé par nos solutions ? Vous avez des questions ou souhaitez plus d'informations ? N'hésitez pas à nous contacter.",
-      availabilityLink:
-        "Ou consultez mes disponibilités pour planifier un rendez-vous",
+      availabilityLink: "Planifier un rendez-vous",
       autoresponse:
         "Merci pour votre message ! Nous vous contacterons dans les plus brefs délais.",
       form: {
@@ -290,7 +288,7 @@ export const translations: Record<Language, Translations> = {
       title: "Get In Touch",
       subtitle:
         "Interested in our solutions? Have questions or need more information? Feel free to reach out to us.",
-      availabilityLink: "Or check my availability to schedule a meeting",
+      availabilityLink: "Schedule a meeting",
       autoresponse:
         "Thank you for your message! We will get back to you as soon as possible.",
       form: {
